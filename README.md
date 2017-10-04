@@ -16,12 +16,11 @@ Please follow the steps below to generate the parser:
 
 3. Generate the training set and testing set for the joint treebank separately:
 
-   ```
+   ```bash
    josydipa/aligner.py --rst_path dataset/rst/train --const_path dataset/ptb > train.txt
-   ```
-   ```
    josydipa/aligner.py --rst_path dataset/rst/dev --const_path dataset/ptb > dev.txt
-  ```
+   ```
+
 
 ### Syntaco-Dsicourse Parser
 
