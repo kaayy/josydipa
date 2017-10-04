@@ -8,7 +8,7 @@ This repository contains the implementation of the joint syntaco-discourse parse
 
 Due to copyright limit, we can not provide the joint treebank in the form that can be directly used to train a parser. Instead, we provide a patch tool kit to generate the Syntaco-Discourse Treebank giving the [RST Discourse Treebank](https://catalog.ldc.upenn.edu/ldc2002t07) and the [Penn Treebank](https://catalog.ldc.upenn.edu/ldc99t42).
 
-Please follow the steps below to generate the parser:
+Please follow the steps below to generate the treebank:
 
 1. Place the RST Discourse Treebank in folder ```dataset/rst```. Put the discourse trees (```wsj_xxxx.out.dis``` files) in the RST Discourse Treebank to ```dataset/rst/train``` and ```dataset/rst/test``` respectively. Here each ```wsj_xxxx.out.dis``` file corresponds to one WSJ article, where ```xxxx``` is the article number.
 
@@ -17,8 +17,8 @@ Please follow the steps below to generate the parser:
 3. Generate the training set and testing set for the joint treebank separately:
 
    ```bash
-   josydipa/aligner.py --rst_path dataset/rst/train --const_path dataset/ptb > train.txt
-   josydipa/aligner.py --rst_path dataset/rst/dev --const_path dataset/ptb > dev.txt
+   josydipa/src/aligner.py --rst_path dataset/rst/train --const_path dataset/ptb > train.txt
+   josydipa/src/aligner.py --rst_path dataset/rst/dev --const_path dataset/ptb > dev.txt
    ```
 
 
