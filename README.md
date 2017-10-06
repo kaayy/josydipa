@@ -1,5 +1,7 @@
 # Joint Syntactic and Discourse Parsing
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ![](label.png)
 
 This repository contains the implementation of the joint syntaco-discourse parser and the syntaco-discourse treebank. For more details, please refer to the paper [Joint Syntacto-Discourse Parsing and the Syntacto-Discourse Treebank](http://aclweb.org/anthology/D/D17/D17-1224.pdf).
@@ -14,7 +16,7 @@ Please follow the steps below to generate the treebank:
 
 2. Place the Penn Treebank trees in folder ```dataset/ptb```. These constituency trees are in parentheses format. They are grouped as one treebank file (with name ```wsj_xxxx.cleangold```) for a WSJ article.
 
-3. Apply patches to the RST Discourse Treebank file and Penn Treebank file.
+3. Apply patches to the RST Discourse Treebank file and Penn Treebank file. This step is necessary because there are some small mismatches between the RST Discourse tree texts and the Penn tree texts.
 	```bash
 	cd dataset/rst/train
 	patch -p0 ../../../patches/rst-ptb.train.patch
