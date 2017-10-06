@@ -1,0 +1,12 @@
+diff -ruN ./wsj_1331.out.dis ../test.new/wsj_1331.out.dis
+--- ./wsj_1331.out.dis	2017-10-05 19:55:13.576710553 -0400
++++ ../test.new/wsj_1331.out.dis	2017-10-03 23:57:58.428050159 -0400
+@@ -223,7 +223,7 @@
+     )
+   )
+   ( Nucleus (span 78 105) (rel2par Topic-Shift)
+-    ( Nucleus (leaf 78) (rel2par TextualOrganization) (text _!JURY`S CRIMINAL CONVICTION under Superfund law is a first.<P>_!) )
++    ( Nucleus (leaf 78) (rel2par TextualOrganization) (text _!JURY'S CRIMINAL CONVICTION under Superfund law is a first.<P>_!) )
+     ( Nucleus (span 79 105) (rel2par TextualOrganization)
+       ( Nucleus (span 79 92) (rel2par span)
+         ( Nucleus (span 79 81) (rel2par span)

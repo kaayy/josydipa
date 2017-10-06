@@ -1,0 +1,253 @@
+diff -ruN ./wsj_0617.out.dis ../train.new/wsj_0617.out.dis
+--- ./wsj_0617.out.dis	2017-10-05 19:55:07.686710504 -0400
++++ ../train.new/wsj_0617.out.dis	2017-10-03 23:57:48.771383414 -0400
+@@ -310,7 +310,7 @@
+             ( Satellite (leaf 106) (rel2par attribution) (text _!in which they said_!) )
+             ( Nucleus (span 107 108) (rel2par span)
+               ( Nucleus (leaf 107) (rel2par List) (text _!they were in this country at the invitation of President Reagan_!) )
+-              ( Nucleus (leaf 108) (rel2par List) (text _!and that they were enjoying the hospitality of the U.S.<P>_!) )
++              ( Nucleus (leaf 108) (rel2par List) (text _!and that they were enjoying the hospitality of the U.S. .<P>_!) )
+             )
+           )
+         )
+diff -ruN ./wsj_0675.out.dis ../train.new/wsj_0675.out.dis
+--- ./wsj_0675.out.dis	2017-10-05 19:55:07.686710504 -0400
++++ ../train.new/wsj_0675.out.dis	2017-10-04 00:07:58.584721721 -0400
+@@ -119,7 +119,7 @@
+     )
+     ( Nucleus (leaf 48) (rel2par List) (text _!Mobil is cutting back its U.S. oil and gas exploration and production group by up to 15% as part of a restructuring of the business.<P>_!) )
+     ( Nucleus (span 49 58) (rel2par List)
+-      ( Nucleus (leaf 49) (rel2par span) (text _!Markets ---<P>_!) )
++      ( Nucleus (leaf 49) (rel2par span) (text _!Markets --<P>_!) )
+       ( Satellite (span 50 58) (rel2par elaboration-set-member)
+         ( Nucleus (span 50 52) (rel2par List)
+           ( Nucleus (leaf 50) (rel2par span) (text _!Stocks:_!) )
+diff -ruN ./wsj_0695.out.dis ../train.new/wsj_0695.out.dis
+--- ./wsj_0695.out.dis	2017-10-05 19:55:07.686710504 -0400
++++ ../train.new/wsj_0695.out.dis	2017-10-04 00:13:39.808057838 -0400
+@@ -19,7 +19,7 @@
+     ( Satellite (span 7 20) (rel2par elaboration-additional)
+       ( Nucleus (span 7 10) (rel2par span)
+         ( Nucleus (span 7 9) (rel2par span)
+-          ( Nucleus (leaf 7) (rel2par span) (text _!Rally's operates and franchises about 160 fast-food restaurants throughout the U.S._!) )
++          ( Nucleus (leaf 7) (rel2par span) (text _!Rally's operates and franchises about 160 fast-food restaurants throughout the U.S. ._!) )
+           ( Satellite (span 8 9) (rel2par elaboration-additional)
+             ( Nucleus (leaf 8) (rel2par Temporal-Same-Time) (text _!The company went public earlier this month,_!) )
+             ( Nucleus (leaf 9) (rel2par Temporal-Same-Time) (text _!offering 1,745,000 shares of common stock at $15 a share._!) )
+diff -ruN ./wsj_0764.out.dis ../train.new/wsj_0764.out.dis
+--- ./wsj_0764.out.dis	2017-10-05 19:55:07.686710504 -0400
++++ ../train.new/wsj_0764.out.dis	2017-10-04 00:06:35.578054378 -0400
+@@ -213,7 +213,7 @@
+                     ( Nucleus (leaf 75) (rel2par span) (text _!A just price and an open market_!) )
+                     ( Satellite (leaf 76) (rel2par elaboration-object-attribute-e) (text _!for what Colombian produces and exports_!) )
+                   )
+-                  ( Nucleus (leaf 77) (rel2par Same-Unit) (text _!should be the policy of the U.S._!) )
++                  ( Nucleus (leaf 77) (rel2par Same-Unit) (text _!should be the policy of the U.S. ._!) )
+                 )
+               )
+             )
+diff -ruN ./wsj_0766.out.dis ../train.new/wsj_0766.out.dis
+--- ./wsj_0766.out.dis	2017-10-05 19:55:07.686710504 -0400
++++ ../train.new/wsj_0766.out.dis	2017-10-03 23:57:48.774716747 -0400
+@@ -27,7 +27,7 @@
+                   ( Satellite (leaf 10) (rel2par circumstance) (text _!as she slogs through the steady afternoon rain,_!) )
+                 )
+               )
+-              ( Nucleus (leaf 11) (rel2par Same-Unit) (text _!is a claims adjuster with Aetna Life &amp; Casualty._!) )
++              ( Nucleus (leaf 11) (rel2par Same-Unit) (text _!is a claims adjuster with Aetna Life & Casualty._!) )
+             )
+             ( Satellite (span 12 32) (rel2par elaboration-additional)
+               ( Nucleus (leaf 12) (rel2par span) (text _!She has been on the move almost incessantly since last Thursday,_!) )
+diff -ruN ./wsj_1125.out.dis ../train.new/wsj_1125.out.dis
+--- ./wsj_1125.out.dis	2017-10-05 19:55:07.686710504 -0400
++++ ../train.new/wsj_1125.out.dis	2017-10-04 00:15:38.081392136 -0400
+@@ -47,7 +47,7 @@
+               ( Nucleus (span 16 18) (rel2par span)
+                 ( Nucleus (leaf 16) (rel2par List) (text _!Developers are also eyeing the real estate portfolios of major corporations._!) )
+                 ( Nucleus (leaf 17) (rel2par List) (text _!Some plan to pursue foreign development ventures, mostly in Europe._!) )
+-                ( Nucleus (leaf 18) (rel2par List) (text _!And other developers may shift from commercial to residential development in the U.S.<P>_!) )
++                ( Nucleus (leaf 18) (rel2par List) (text _!And other developers may shift from commercial to residential development in the U.S. .<P>_!) )
+               )
+               ( Satellite (span 19 25) (rel2par explanation-argumentative)
+                 ( Satellite (span 19 20) (rel2par result)
+diff -ruN ./wsj_1139.out.dis ../train.new/wsj_1139.out.dis
+--- ./wsj_1139.out.dis	2017-10-05 19:55:07.686710504 -0400
++++ ../train.new/wsj_1139.out.dis	2017-10-03 23:57:48.774716747 -0400
+@@ -136,7 +136,7 @@
+   )
+   ( Nucleus (span 48 53) (rel2par TextualOrganization)
+     ( Nucleus (span 48 49) (rel2par List)
+-      ( Nucleus (leaf 48) (rel2par span) (text _!> a-Totals include only vehicle sales_!) )
++      ( Nucleus (leaf 48) (rel2par span) (text _!a-Totals include only vehicle sales_!) )
+       ( Satellite (leaf 49) (rel2par elaboration-object-attribute) (text _!reported in the period.<P>_!) )
+     )
+     ( Nucleus (leaf 50) (rel2par List) (text _!c-Domestic car<P>_!) )
+diff -ruN ./wsj_1161.out.dis ../train.new/wsj_1161.out.dis
+--- ./wsj_1161.out.dis	2017-10-05 19:55:07.686710504 -0400
++++ ../train.new/wsj_1161.out.dis	2017-10-03 23:57:48.774716747 -0400
+@@ -224,7 +224,7 @@
+       )
+     )
+     ( Nucleus (span 82 94) (rel2par List)
+-      ( Nucleus (leaf 82) (rel2par span) (text _!West Virginia Parkways, Economic Development and <Tourism Authority --_!) )
++      ( Nucleus (leaf 82) (rel2par span) (text _!West Virginia Parkways, Economic Development and Tourism Authority --_!) )
+       ( Satellite (span 83 94) (rel2par elaboration-general-specific)
+         ( Nucleus (span 83 92) (rel2par span)
+           ( Nucleus (span 83 85) (rel2par span)
+diff -ruN ./wsj_1303.out.dis ../train.new/wsj_1303.out.dis
+--- ./wsj_1303.out.dis	2017-10-05 19:55:07.690043837 -0400
++++ ../train.new/wsj_1303.out.dis	2017-10-04 00:31:24.384733188 -0400
+@@ -110,7 +110,7 @@
+               )
+             )
+             ( Nucleus (span 40 46) (rel2par span)
+-              ( Nucleus (leaf 40) (rel2par span) (text _!they have been only marginally profitable, if at all, in the U.S.<P>_!) )
++              ( Nucleus (leaf 40) (rel2par span) (text _!they have been only marginally profitable, if at all, in the U.S. .<P>_!) )
+               ( Satellite (span 41 46) (rel2par explanation-argumentative)
+                 ( Nucleus (span 41 44) (rel2par Temporal-Same-Time)
+                   ( Nucleus (leaf 41) (rel2par List) (text _!American institutional investors have never had a large appetite for Japanese equities._!) )
+diff -ruN ./wsj_1318.out.dis ../train.new/wsj_1318.out.dis
+--- ./wsj_1318.out.dis	2017-10-05 19:55:07.690043837 -0400
++++ ../train.new/wsj_1318.out.dis	2017-10-04 00:17:44.064726497 -0400
+@@ -49,7 +49,7 @@
+           ( Nucleus (span 18 25) (rel2par span)
+             ( Nucleus (leaf 18) (rel2par span) (text _!Turner Broadcasting already has found some ideas_!) )
+             ( Satellite (span 19 25) (rel2par elaboration-object-attribute-e)
+-              ( Nucleus (leaf 19) (rel2par span) (text _!that might work well as films for theatrical release in the U.S.<P>_!) )
++              ( Nucleus (leaf 19) (rel2par span) (text _!that might work well as films for theatrical release in the U.S. .<P>_!) )
+               ( Satellite (span 20 25) (rel2par elaboration-additional)
+                 ( Nucleus (span 20 22) (rel2par span)
+                   ( Satellite (span 20 21) (rel2par condition)
+diff -ruN ./wsj_1367.out.dis ../train.new/wsj_1367.out.dis
+--- ./wsj_1367.out.dis	2017-10-05 19:55:07.690043837 -0400
++++ ../train.new/wsj_1367.out.dis	2017-10-04 00:30:42.138066178 -0400
+@@ -104,7 +104,7 @@
+                       ( Nucleus (span 35 38) (rel2par span)
+                         ( Nucleus (span 35 36) (rel2par Same-Unit)
+                           ( Nucleus (leaf 35) (rel2par span) (text _!and recalls with relish wearing her first major American purchase_!) )
+-                          ( Satellite (leaf 36) (rel2par elaboration-object-attribute-e) (text _!-- that turban --_!) )
++                          ( Satellite (leaf 36) (rel2par elaboration-object-attribute-e) (text _!-- that turban_!) )
+                         )
+                         ( Nucleus (span 37 38) (rel2par Same-Unit)
+                           ( Satellite (leaf 37) (rel2par attribution) (text _!10 years later and having a Los Angeles boutique owner ask her_!) )
+diff -ruN ./wsj_1377.out.dis ../train.new/wsj_1377.out.dis
+--- ./wsj_1377.out.dis	2017-10-05 19:55:07.690043837 -0400
++++ ../train.new/wsj_1377.out.dis	2017-10-04 00:24:31.338063153 -0400
+@@ -1,5 +1,5 @@
+ ( Root (span 1 158)
+-  ( Nucleus (leaf 1) (rel2par TextualOrganization) (text _!Part of a Series<P>_!) )
++  ( Nucleus (leaf 1) (rel2par TextualOrganization) (text _!Part of a Series }<P>_!) )
+   ( Nucleus (span 2 158) (rel2par TextualOrganization)
+     ( Nucleus (leaf 2) (rel2par TextualOrganization) (text _!SMYRNA, Ga. --_!) )
+     ( Nucleus (span 3 158) (rel2par TextualOrganization)
+@@ -219,7 +219,7 @@
+                     ( Nucleus (span 77 79) (rel2par List)
+                       ( Nucleus (span 77 78) (rel2par span)
+                         ( Nucleus (leaf 77) (rel2par span) (text _!Ford Motor Co. created the Merkur nameplate in 1985_!) )
+-                        ( Satellite (leaf 78) (rel2par purpose) (text _!to sell its German-made touring sedans in the U.S._!) )
++                        ( Satellite (leaf 78) (rel2par purpose) (text _!to sell its German-made touring sedans in the U.S. ._!) )
+                       )
+                       ( Satellite (leaf 79) (rel2par antithesis) (text _!But slow sales forced Ford to kill the brand just last week.<P>_!) )
+                     )
+diff -ruN ./wsj_1390.out.dis ../train.new/wsj_1390.out.dis
+--- ./wsj_1390.out.dis	2017-10-05 19:55:07.690043837 -0400
++++ ../train.new/wsj_1390.out.dis	2017-10-04 00:32:41.808067154 -0400
+@@ -93,7 +93,7 @@
+                 ( Nucleus (leaf 31) (rel2par span) (text _!"Capitalizing on the brand is key,"_!) )
+                 ( Satellite (span 32 33) (rel2par attribution)
+                   ( Nucleus (leaf 32) (rel2par span) (text _!says Mr. Brawer,_!) )
+-                  ( Satellite (leaf 33) (rel2par elaboration-object-attribute-e) (text _!whose immediate plans include further international expansion and getting better control of distribution outside the U.S.<P>_!) )
++                  ( Satellite (leaf 33) (rel2par elaboration-object-attribute-e) (text _!whose immediate plans include further international expansion and getting better control of distribution outside the U.S. .<P>_!) )
+                 )
+               )
+             )
+diff -ruN ./wsj_1988.out.dis ../train.new/wsj_1988.out.dis
+--- ./wsj_1988.out.dis	2017-10-05 19:55:07.690043837 -0400
++++ ../train.new/wsj_1988.out.dis	2017-10-04 00:16:34.761392599 -0400
+@@ -106,7 +106,7 @@
+     )
+     ( Satellite (span 37 38) (rel2par elaboration-additional)
+       ( Nucleus (leaf 37) (rel2par span) (text _!Canada's export effort has been blunted by robust home market demand and by an 18% appreciation of the Canadian dollar against its U.S. counterpart in the past three years_!) )
+-      ( Satellite (leaf 38) (rel2par elaboration-object-attribute-e) (text _!that has made Canadian goods more costly in the U.S.<P>_!) )
++      ( Satellite (leaf 38) (rel2par elaboration-object-attribute-e) (text _!that has made Canadian goods more costly in the U.S. .<P>_!) )
+     )
+   )
+   ( Satellite (span 39 40) (rel2par elaboration-additional)
+diff -ruN ./wsj_2172.out.dis ../train.new/wsj_2172.out.dis
+--- ./wsj_2172.out.dis	2017-10-05 19:55:07.690043837 -0400
++++ ../train.new/wsj_2172.out.dis	2017-10-03 23:57:48.774716747 -0400
+@@ -130,7 +130,7 @@
+                 ( Satellite (span 46 52) (rel2par explanation-argumentative)
+                   ( Nucleus (span 46 47) (rel2par span)
+                     ( Nucleus (leaf 46) (rel2par span) (text _!"He still hasn't proven his mettle as a big-league take-out artist,"_!) )
+-                    ( Satellite (leaf 47) (rel2par attribution) (text _!said airline analyst Kevin Murphy of Morgan Stanley &amp; Co._!) )
++                    ( Satellite (leaf 47) (rel2par attribution) (text _!said airline analyst Kevin Murphy of Morgan Stanley & Co._!) )
+                   )
+                   ( Satellite (span 48 52) (rel2par elaboration-additional)
+                     ( Nucleus (span 48 51) (rel2par span)
+@@ -314,7 +314,7 @@
+                   )
+                   ( Satellite (span 108 112) (rel2par example)
+                     ( Nucleus (span 108 110) (rel2par span)
+-                      ( Satellite (leaf 108) (rel2par attribution) (text _!Ray Neidl of Dillon Read &amp; Co. said_!) )
++                      ( Satellite (leaf 108) (rel2par attribution) (text _!Ray Neidl of Dillon Read & Co. said_!) )
+                       ( Nucleus (span 109 110) (rel2par span)
+                         ( Nucleus (leaf 109) (rel2par List) (text _!Mr. Trump "is stepping back_!) )
+                         ( Nucleus (leaf 110) (rel2par List) (text _!and waiting for the dust to settle._!) )
+diff -ruN ./wsj_2303.out.dis ../train.new/wsj_2303.out.dis
+--- ./wsj_2303.out.dis	2017-10-05 19:55:07.690043837 -0400
++++ ../train.new/wsj_2303.out.dis	2017-10-04 00:05:38.014720575 -0400
+@@ -77,7 +77,7 @@
+         )
+         ( Satellite (span 26 35) (rel2par elaboration-additional)
+           ( Nucleus (span 26 27) (rel2par span)
+-            ( Nucleus (leaf 26) (rel2par span) (text _!The $409 million bid is estimated by Mr. Simpson as representing 75% of the value of all Hooker real-estate holdings in the U.S._!) )
++            ( Nucleus (leaf 26) (rel2par span) (text _!The $409 million bid is estimated by Mr. Simpson as representing 75% of the value of all Hooker real-estate holdings in the U.S. ._!) )
+             ( Satellite (leaf 27) (rel2par elaboration-additional) (text _!Not included in the bid are Bonwit Teller or B. Altman & Co., L.J. Hooker's department-store chains.<P>_!) )
+           )
+           ( Satellite (span 28 35) (rel2par elaboration-part-whole)
+diff -ruN ./wsj_2320.out.dis ../train.new/wsj_2320.out.dis
+--- ./wsj_2320.out.dis	2017-10-05 19:55:07.690043837 -0400
++++ ../train.new/wsj_2320.out.dis	2017-10-04 00:26:40.601397540 -0400
+@@ -19,7 +19,7 @@
+               )
+               ( Nucleus (span 7 8) (rel2par List)
+                 ( Nucleus (leaf 7) (rel2par span) (text _!It also marks P&G's growing concern_!) )
+-                ( Satellite (leaf 8) (rel2par elaboration-object-attribute-e) (text _!that its Japanese rivals, such as Kao Corp., may bring their superconcentrates to the U.S.<P>_!) )
++                ( Satellite (leaf 8) (rel2par elaboration-object-attribute-e) (text _!that its Japanese rivals, such as Kao Corp., may bring their superconcentrates to the U.S. .<P>_!) )
+               )
+             )
+             ( Satellite (span 9 14) (rel2par background)
+@@ -199,7 +199,7 @@
+         ( Nucleus (span 67 72) (rel2par span)
+           ( Nucleus (span 67 68) (rel2par span)
+             ( Nucleus (leaf 67) (rel2par span) (text _!Competition is bound to get tougher_!) )
+-            ( Satellite (leaf 68) (rel2par condition) (text _!if Kao introduces a product like Attack in the U.S._!) )
++            ( Satellite (leaf 68) (rel2par condition) (text _!if Kao introduces a product like Attack in the U.S. ._!) )
+           )
+           ( Satellite (span 69 72) (rel2par elaboration-additional)
+             ( Satellite (leaf 69) (rel2par comment) (text _!To be sure,_!) )
+diff -ruN ./wsj_2321.out.dis ../train.new/wsj_2321.out.dis
+--- ./wsj_2321.out.dis	2017-10-05 19:55:07.690043837 -0400
++++ ../train.new/wsj_2321.out.dis	2017-10-04 00:34:50.721401539 -0400
+@@ -9,7 +9,7 @@
+         ( Nucleus (leaf 3) (rel2par span) (text _!They expected a new barrage of demands_!) )
+         ( Satellite (span 4 5) (rel2par elaboration-object-attribute-e)
+           ( Nucleus (leaf 4) (rel2par span) (text _!that Japan do something quickly_!) )
+-          ( Satellite (leaf 5) (rel2par purpose-e) (text _!to reduce its trade surplus with the U.S.<P>_!) )
++          ( Satellite (leaf 5) (rel2par purpose-e) (text _!to reduce its trade surplus with the U.S. .<P>_!) )
+         )
+       )
+     )
+diff -ruN ./wsj_2398.out.dis ../train.new/wsj_2398.out.dis
+--- ./wsj_2398.out.dis	2017-10-05 19:55:07.693377171 -0400
++++ ../train.new/wsj_2398.out.dis	2017-10-04 00:25:42.431397066 -0400
+@@ -120,7 +120,7 @@
+               ( Nucleus (span 41 47) (rel2par span)
+                 ( Nucleus (span 41 42) (rel2par span)
+                   ( Nucleus (leaf 41) (rel2par span) (text _!Monsanto Co., too, is expected to continue reporting higher profit,_!) )
+-                  ( Satellite (leaf 42) (rel2par concession) (text _!even though its sales of crop chemicals were hurt in the latest quarter by drought in northern Europe and the western U.S._!) )
++                  ( Satellite (leaf 42) (rel2par concession) (text _!even though its sales of crop chemicals were hurt in the latest quarter by drought in northern Europe and the western U.S. ._!) )
+                 )
+                 ( Satellite (span 43 47) (rel2par elaboration-additional)
+                   ( Nucleus (span 43 44) (rel2par span)

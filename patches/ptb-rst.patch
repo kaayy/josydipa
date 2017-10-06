@@ -1,0 +1,100 @@
+diff -ruN ./wsj_0603.cleangold ../ptb.new/wsj_0603.cleangold
+--- ./wsj_0603.cleangold	2017-10-04 00:37:14.391402711 -0400
++++ ../ptb.new/wsj_0603.cleangold	2017-10-03 22:10:49.034664000 -0400
+@@ -1,2 +1,3 @@
+ (TOP (S (NP (NP (NP (DT THE) (NNP FINANCIAL) (NNP ACCOUNTING) (NNPS STANDARDS) (NNP BOARD'S)) (JJ coming) (NN rule)) (PP (IN on) (NP (NP (NN disclosure)) (VP (VBG involving) (NP (JJ financial) (NNS instruments)))))) (VP (MD will) (VP (VB be) (ADJP (JJ effective)) (PP (IN for) (NP (NP (JJ financial) (NNS statements)) (PP (IN with) (NP (NP (JJ fiscal) (NNS years)) (VP (VBG ending) (PP (IN after) (NP (NNP June) (CD 15) (, ,) (CD 1990)))))))))) (. .)))
+ (TOP (S (NP (DT The) (NN date)) (VP (VBD was) (VP (VBN misstated) (PP (IN in) (NP (NP (NNP Friday) (POS 's)) (NN edition))))) (. .)))
++(TOP (PRN (-LRB- -LRB-) (NP (NP (NNP See)) (: :) (NP (NP (`` ``) (NP (NNP FASB) (NNPS Plans) (NNP Rule)) (PP (IN on) (NP (NP (NNP Financial) (NNP Risk)) (PP (IN of) (NP (NNP Instruments))))) ('' '')) (PRN (: --) (NP (NNP WSJ))) (NP (NNP Oct.) (CD 27) (, ,) (CD 1989)))) (-RRB- -RRB-)))
+diff -ruN ./wsj_0605.cleangold ../ptb.new/wsj_0605.cleangold
+--- ./wsj_0605.cleangold	2017-10-04 00:37:14.391402711 -0400
++++ ../ptb.new/wsj_0605.cleangold	2017-10-03 22:10:49.034664000 -0400
+@@ -1,2 +1,3 @@
+ (TOP (S (PP (IN UNDER) (NP (NP (DT A) (NN PROPOSAL)) (PP (IN by) (NP (NNPS Democrats))) (S (VP (TO to) (VP (VB expand) (NP (NNP Individual) (NNP Retirement) (NNPS Accounts))))))) (, ,) (NP (NP (DT a) (ADJP ($ $) (CD 2,000)) (NN contribution)) (PP (IN by) (NP (NP (DT a) (NN taxpayer)) (PP (IN in) (NP (DT the) (ADJP (CD 33) (NN %)) (NN bracket)))))) (VP (MD would) (VP (VB save) (NP ($ $) (CD 330)) (PP (IN on) (NP (PRP$ his) (NNS taxes))))) (. .)))
+ (TOP (S (NP (DT The) (NN savings)) (VP (VBD was) (VP (VBN given) (ADVP (RB incorrectly)) (PP (IN in) (NP (NP (NNP Friday) (POS 's)) (NN edition))))) (. .)))
++(TOP (PRN (-LRB- -LRB-) (S (VP (VP (VB See)) (: :) (NP (`` ``) (NP (NNP Politics) (CC &) (NNP Policy)) (: :) (NP (NP (NN Debate)) (PP (IN on) (NP (NP (NNPS IRAs) (NNPS Centers)) (PP (IN on) (FRAG (SBAR (IN Whether) (S (NP (NNP Tax) (NNP Break)) (VP (MD Should) (VP (VP (VB Be) (ADJP (JJ Immediate))) (CC or) (VP (VB Put) (ADVP (IN Off) (PP (IN Till) (NP (NNP Retirement)))) ('' '') (: --) (FRAG (ADJP (JJ WSJ) (NP (NNP Oct.) (CD 27) (, ,) (CD 1989))))))))))))))))) (-RRB- -RRB-)))
+diff -ruN ./wsj_0608.cleangold ../ptb.new/wsj_0608.cleangold
+--- ./wsj_0608.cleangold	2017-10-04 00:37:14.391402711 -0400
++++ ../ptb.new/wsj_0608.cleangold	2017-10-03 22:10:49.034664000 -0400
+@@ -1,2 +1,3 @@
+ (TOP (S (NP (DT THE) (NNP YALE) (JJ POLITICAL) (NN UNION)) (VP (VBZ does) (RB n't) (VP (VB pay) (NP (DT an) (NN honorarium)) (PP (TO to) (NP (NNS speakers))))) (. .)))
+ (TOP (S (PP (IN In) (NP (NP (NNP Thursday) (POS 's)) (NN edition))) (, ,) (NP (PRP it)) (VP (VBD was) (VP (ADVP (RB incorrectly)) (VBN indicated) (SBAR (IN that) (S (NP (DT the) (NN union)) (VP (VBD had) (VP (VBN paid) (NP (DT a) (NN fee)) (PP (TO to) (NP (JJ former) (NNP House) (NNP Speaker) (NNP Jim) (NNP Wright))))))))) (. .)))
++(TOP (PRN (-LRB- -LRB-) (S (VP (VBG See) (: :) (`` ``) (S (PP (IN In) (NP (NP (NNP Nation) (POS 's)) (NNP Capital))) (, ,) (NP (NNP Scandal)) (VP (VBP Need) (RB n't) (VP (VB Cut) (NP (NP (NP (CD One) (POS 's)) (JJ Speaking) (NNP Fee) (PRN (: --) (NP (NP (NNP -) (NNP Jim) (NNP Wright)) (, ,) (NP (NNP Michael) (NNP Deaver)) (CC and) (NP (NP (NNP Host)) (PP (IN of) (NP (NNS Others) (NNP Find) (NNP Careers) (IN After) (NNP Disgrace) ('' ''))))) (: --)) (NNP WSJ)) (NP (NNP Oct.) (CD 26) (, ,) (CD 1989)))))))) (-RRB- -RRB-)))
+diff -ruN ./wsj_0609.cleangold ../ptb.new/wsj_0609.cleangold
+--- ./wsj_0609.cleangold	2017-10-04 00:37:14.391402711 -0400
++++ ../ptb.new/wsj_0609.cleangold	2017-10-03 22:10:49.034664000 -0400
+@@ -46,3 +46,4 @@
+ (TOP (S (NP (NNP Rep.) (NNP Edwards)) (VP (VBZ voices) (NP (DT the) (JJ traditional) (JJ conservative) (NN view) (SBAR (IN that) (S (NP (NP (PRP it))) (VP (VBZ 's) (NP (DT a) (NN mistake)) (S (VP (TO to) (VP (VB put) (NP (RB too) (JJ much) (NP (NN power))) (PP (IN in) (NP (NP (DT the) (NNS hands)) (PP (IN of) (NP (DT a) (JJ single) (NN person))))))))))))) (. .)))
+ (TOP (S (S (NP (NP (NNS Conservatives)) (VP (VBG pushing) (PP (IN for) (NP (DT a) (JJ line-item) (NN veto))) (ADVP (RB now)))) (PRN (, ,) (S (NP (PRP he)) (VP (VBZ notes))) (, ,)) (VP (MD may) (VP (VB regret) (NP (PRP it)) (ADVP (RB later))))) (: :) (S (`` ``) (ADVP (RB Sometime)) (, ,) (NP (PRP you)) (VP (VBP 're) (VP (VBG going) (S (VP (TO to) (VP (VB have) (NP (NP (DT a) (JJ Democratic) (NN president))) (ADVP (RB again)) ('' '') (SBAR (WHNP (WP who)) (S (VP (MD 'll) (VP (VB use) (NP (PRP$ his) (JJ expanded) (NNS powers)) (PP (IN against) (NP (DT those) (ADJP (JJ very) (JJ same)) (NNS conservatives))))))))))))) (. .)))
+ (TOP (S (`` ``) (NP (NP (DT Every) (NN order) (, ,) (NN resolution) (, ,) (CC or) (NN vote)) (SBAR (WHPP (TO to) (WHNP (WDT which))) (S (NP (NP (DT the) (NN concurrence)) (PP (IN of) (NP (DT the) (NX (NX (NNP Senate)) (CC and) (NX (NX (NNP House)) (PP (IN of) (NP (NNPS Representatives)))))))) (VP (MD may) (VP (VB be) (ADJP (JJ necessary)) (PRN (-LRB- -LRB-) (PP (IN except) (PP (IN on) (NP (NP (DT a) (NN question)) (PP (IN of) (NP (NN adjournment)))))) (-RRB- -RRB-))))))) (VP (VP (MD shall) (VP (VB be) (VP (VBN presented) (PP (TO to) (NP (NP (DT the) (NNP President)) (PP (IN of) (NP (DT the) (NNP United) (NNPS States)))))))) (: ;) (CC and) (VP (SBAR (IN before) (S (NP (DT the) (JJ same)) (VP (MD shall) (VP (VB take) (NP (NN effect)))))) (, ,) (MD shall) (VP (VB be) (VP (VBN approved) (PP (IN by) (NP (PRP him)))))) (, ,) (CC or) (VP (S (VP (VBG being) (VP (VBN disapproved) (PP (IN by) (NP (PRP him)))))) (, ,) (MD shall) (VP (VB be) (VP (VBN repassed) (PP (IN by) (NP (NP (NNS two-thirds)) (PP (IN of) (NP (DT the) (NX (NX (NNP Senate)) (CC and) (NX (NX (NNP House)) (PP (IN of) (NP (NNPS Representatives)))))))))))) (, ,) (PP (VBG according) (PP (TO to) (NP (NP (DT the) (NNS rules) (CC and) (NNS limitations)) (VP (VBN prescribed) (PP (IN in) (NP (NP (DT the) (NN case)) (PP (IN of) (NP (DT a) (NN bill)))))))))) (. .) ('' '')))
++(TOP (PRN (: --) (NP (NP (DT The) (NNP Constitution)) (, ,) (NP (NNP Article) (PRP I) (, ,) (NNP Section) (CD 7)) (, ,) (NP (NN Clause) (CD 3)))))
+diff -ruN ./wsj_0611.cleangold ../ptb.new/wsj_0611.cleangold
+--- ./wsj_0611.cleangold	2017-10-04 00:37:14.391402711 -0400
++++ ../ptb.new/wsj_0611.cleangold	2017-10-03 22:10:49.037997000 -0400
+@@ -1,2 +1,3 @@
+ (TOP (S (NP (NP (NNP PARKER) (NNP HANNIFIN) (NNP Corp.)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBZ is) (VP (VBG selling) (NP (CD three) (JJ automotive) (NN replacement) (NNS parts) (NNS divisions)))))) (, ,)) (VP (VBD said) (SBAR (S (NP (PRP it)) (VP (MD will) (VP (VB retain) (NP (PRP$ its) (NNP Automotive) (NNPS Connectors) (CC and) (NNP Cliff) (NNP Impact) (NNS divisions))))))) (. .)))
+ (TOP (S (NP (NP (DT The) (NNS divisions)) (SBAR (WHNP (WDT that)) (S (NP (NNP Parker) (NNP Hannifin)) (VP (VBZ is) (VP (VBG retaining)))))) (VP (VBD were) (RB n't) (VP (VBN mentioned) (PP (IN in) (NP (NP (NNP Thursday) (POS 's)) (NN edition))))) (. .)))
++(TOP (FRAG (-LRB- -LRB-) (NP (NNP See)) (: :) (NP (NP (`` ``) (NNP Parker) (NNS Hannifin) (NN Sale) ('' '')) (: --) (NP (NP (NNP WSJ)) (NP (NNP Oct.) (CD 26) (, ,) (CD 1989)))) (-RRB- -RRB-)))
+diff -ruN ./wsj_0614.cleangold ../ptb.new/wsj_0614.cleangold
+--- ./wsj_0614.cleangold	2017-10-04 00:37:14.391402711 -0400
++++ ../ptb.new/wsj_0614.cleangold	2017-10-03 22:10:49.037997000 -0400
+@@ -1,2 +1,3 @@
+ (TOP (S (NP (NP (NP (NNP QUANTUM) (NNP CHEMICAL) (NNP Corp.) (POS 's)) (NN plant)) (PP (IN in) (NP (NP (NNP Morris)) (, ,) (NP (NNP Ill.)) (, ,)))) (VP (VBZ is) (VP (VBN expected) (S (VP (TO to) (VP (VB resume) (NP (NN production)) (PP (IN in) (NP (JJ early) (CD 1990)))))))) (. .)))
+ (TOP (S (NP (DT The) (NN year)) (VP (VBD was) (VP (VBN misstated) (PP (IN in) (NP (NP (NNP Friday) (POS 's)) (NNS editions))))) (. .)))
++(TOP (FRAG (-LRB- -LRB-) (NP (NNP See)) (: :) (NP (NP (`` ``) (NNP Dividend) (NNP News)) (: :) (NP (NP (NNP Payout) (NNP Stalled)) (PP (IN at) (NP (NP (NNP Quantum) (NNP Chemical) (NNP Corp.)) (: --) (NP (: -) (NP (NP (NN Firm) (NNS Posts)) (NP (JJ Quarterly) (NN Loss))) (, ,) (FW Plans) (NP (NP (DT a) (NNP Stock) (NNP Dividend)) (PP (TO to) (NP (NP (NNP Take) (NNP Place)) (PP (IN of) (NP (NNP Cash))))))) ('' '')))) (: --) (NP (NNP WSJ) (NNP Oct.) (CD 27) (, ,) (CD 1989))) (-RRB- -RRB-)))
+diff -ruN ./wsj_0694.cleangold ../ptb.new/wsj_0694.cleangold
+--- ./wsj_0694.cleangold	2017-10-04 00:37:14.391402711 -0400
++++ ../ptb.new/wsj_0694.cleangold	2017-10-03 22:10:49.037997000 -0400
+@@ -12,3 +12,4 @@
+ (TOP (NP (NNP Sandra) (NNP Swift) (NNP Parrino)))
+ (TOP (NP (NNP Chairperson)))
+ (TOP (NP (NP (NNP National) (NNP Council)) (PP (IN on) (NP (DT the) (NNP Handicapped)))))
++(TOP (NP (NNP Washington)))
+diff -ruN ./wsj_0696.cleangold ../ptb.new/wsj_0696.cleangold
+--- ./wsj_0696.cleangold	2017-10-04 00:37:14.391402711 -0400
++++ ../ptb.new/wsj_0696.cleangold	2017-10-03 22:10:49.041331000 -0400
+@@ -3,3 +3,4 @@
+ (TOP (S (NP (NP (ADJP (JJ Estimated) (CC and) (JJ actual)) (NNS results)) (VP (VBG involving) (NP (NNS losses)))) (VP (VBP are) (VP (VBN omitted))) (. .)))
+ (TOP (S (NP (DT The) (NN percent) (NN difference)) (VP (VBZ compares) (NP (JJ actual) (NN profit)) (PP (IN with) (NP (NP (DT the) (JJ 30-day) (NN estimate)) (SBAR (WHADVP (WRB where)) (S (NP (QP (IN at) (JJS least) (CD three)) (NNS analysts)) (VP (VBP have) (VP (NNS issues) (NP (NNS forecasts)) (PP (IN in) (NP (DT the) (JJ past) (CD 30) (NNS days)))))))))) (. .)))
+ (TOP (S (ADVP (RB Otherwise)) (, ,) (NP (JJ actual) (NN profit)) (VP (VBZ is) (VP (VBN compared) (PP (IN with) (NP (DT the) (JJ 300-day) (NN estimate))))) (. .)))
++(TOP (NP (NP (NN Source)) (: :) (NP (NNP Zacks) (NNP Investment) (NNP Research))))
+diff -ruN ./wsj_1107.cleangold ../ptb.new/wsj_1107.cleangold
+--- ./wsj_1107.cleangold	2017-10-04 00:37:14.398069377 -0400
++++ ../ptb.new/wsj_1107.cleangold	2017-10-03 22:10:49.041331000 -0400
+@@ -15,3 +15,4 @@
+ (TOP (S (NP (NP (DT The) (NNP Federal) (NNP Housing) (NNP Administration)) (, ,) (NP (NNP Veterans) (NNP Administration)) (CC and) (NP (NP (DT the) (NNP Department)) (PP (IN of) (NP (NP (NNP Housing)) (CC and) (NP (NNP Urban) (NNP Development)))))) (ADVP (RB further)) (VP (VBP aggravate) (NP (NP (DT the) (NN problem)) (PP (IN of) (NP (JJ affordable) (NN housing) (NN stock)))) (PP (IN by) (`` ``) (S (VP (VP (VBG buying) (ADVP (RB in)) ('' '') (PP (TO to) (NP (NP (PRP$ their) (VBN foreclosed) (NNS properties)) (PRN (-LRB- -LRB-) (SBAR (WHPP (IN of) (WHNP (WDT which))) (S (NP (EX there)) (VP (VBP are) (, ,) (INTJ (UH alas)) (, ,) (NP (NP (JJ many)))))) (-RRB- -RRB-)))) (PP (IN at) (NP (NP (DT an) (JJ inflated) (`` ``) (NN balance) (JJ due) ('' '')) (: --) (S (VP (VB say) (NP (NP ($ $) (CD 80,000)) (PP (IN on) (NP (NP (DT a) (NN house)) (ADJP (JJ worth) (NP ($ $) (CD 55,000))))))))))) (: --) (CONJP (RB instead) (IN of)) (VP (VBG allowing) (S (NP (DT a) (JJ free) (NN market)) (VP (TO to) (VP (VB price) (NP (DT the) (NN house)) (PP (IN for) (SBAR (WHNP (WP what)) (S (NP (PRP it)) (VP (VBZ 's) (ADJP (RB really) (JJ worth)))))))))))))) (. .)))
+ (TOP (S (S (ADJP (RBR Worse))) (, ,) (S (NP (DT the) (NNS properties)) (ADVP (RB then)) (VP (VP (VBP sit) (PRT (RP around)) (S (VP (VBG deteriorating) (PP (IN for) (NP (RB maybe) (DT a) (NN year) (QP (CC or) (RB so))))))) (, ,) (CC but) (VP (VBP are) (VP (VBN resold) (ADVP (RB eventually)) (-LRB- -LRB-) (PP (IN because) (IN of) (NP (NP (DT the) (NN attractiveness)) (PP (IN of) (NP (NP (DT the) (JJ low) (JJ down) (NN payment)) (, ,) (NP (FW etc) (. .)))))) (-RRB- -RRB-) (PP (TO to) (NP (NP (DT a) (JJ marginal) (NN buyer)) (SBAR (WHNP (WP who)) (S (VP (MD ca) (RB n't) (VP (VB afford) (NP (DT both) (NP (DT the) (NN mortgage)) (CC and) (NP (VBN needed) (NNS repairs))))))))))))) (: ;) (CC and) (S (S (VP (VBG having) (NP (JJ little) (JJ vested) (NN interest)))) (NP (DT that) (NN buyer)) (VP (MD will) (VP (VB walk) (ADVP (RB away))))) (CC and) (S (NP (DT the) (JJ vicious) (NN cycle)) (VP (VBZ repeats) (NP (PRP itself)) (ADVP (RB all) (RB over) (RB again)))) (. .)))
+ (TOP (NP (NNP Paul) (NNP Padget)))
++(TOP (NP (NNP Cincinnati)))
+diff -ruN ./wsj_1377.cleangold ../ptb.new/wsj_1377.cleangold
+--- ./wsj_1377.cleangold	2017-10-04 00:37:14.401402710 -0400
++++ ../ptb.new/wsj_1377.cleangold	2017-10-04 00:25:02.168063405 -0400
+@@ -69,3 +69,4 @@
+ (TOP (FRAG (NP (DT The) (NN reason)) (: :) (S (NP (NP (NNS Items)) (PP (IN with) (NP (JJ narrow) (NN appeal)))) (VP (MD can) (VP (VB be) (ADJP (JJ important)) (PP (IN in) (NP (NP (DT a) (NN market)) (ADJP (RB as) (JJ fragmented) (PP (IN as) (NP (NN today) (POS 's))))))))) (. .)))
+ (TOP (S (S (NP (NNPS Americans)) (VP (VBD spent) (NP (QP (JJR more) (IN than) ($ $) (CD 190) (CD billion))) (PP (IN on) (NP (JJ new) (NNS cars) (CC and) (VBZ trucks))) (NP (JJ last) (NN year)))) (, ,) (CC and) (S (NP (NP (QP (RB just) (CD 1)) (NN %)) (PP (IN of) (NP (DT that) (NN market)))) (VP (VBD exceeded) (NP (NP (NP (NNP Polaroid) (NNP Co.) (POS 's)) (NNS sales)) (PP (IN of) (NP (QP ($ $) (CD 1.86) (CD billion))))))) (. .)))
+ (TOP (SQ (`` ``) (SBAR (RB Even) (IN if) (S (NP (PRP it)) (VP (VBZ 's) (NP (QP (RB only) (CD 1)) (NN %))))) (PRN (, ,) ('' '') (SINV (VP (VBZ says)) (NP (NP (NNP GM) (POS 's)) (NNP Mr.) (NNP Barabba))) (, ,) (`` ``)) (MD would) (NP (PRP you)) (VP (VB throw) (PRT (RP away)) (NP (NP (NNS sales)) (NP (NP (DT the) (NN size)) (PP (IN of) (NP (NNP Polaroid)))))) (. ?) ('' '')))
++(TOP (PRN (-LRB- -LRB-) (NP (NP (DT All) (NNS buyers)) (NP (CD 47) (NN %))) (-RRB- -RRB-)))
+\ No newline at end of file
+diff -ruN ./wsj_1382.cleangold ../ptb.new/wsj_1382.cleangold
+--- ./wsj_1382.cleangold	2017-10-04 00:37:14.401402710 -0400
++++ ../ptb.new/wsj_1382.cleangold	2017-10-03 22:10:49.047997000 -0400
+@@ -3,3 +3,4 @@
+ (TOP (S (NP (NP (ADJP (JJ Estimated) (CC and) (JJ actual)) (NNS results)) (VP (VBG involving) (NP (NNS losses)))) (VP (VBP are) (VP (VBN omitted))) (. .)))
+ (TOP (S (NP (DT The) (NN percent) (NN difference)) (VP (VBZ compares) (NP (JJ actual) (NN profit)) (PP (IN with) (NP (NP (DT the) (JJ 30-day) (NN estimate)) (SBAR (WHADVP (WRB where)) (S (NP (QP (IN at) (JJS least) (CD three)) (NNS analysts)) (VP (VBP have) (VP (NNS issues) (NP (NNS forecasts)) (PP (IN in) (NP (DT the) (JJ past) (CD 30) (NNS days)))))))))) (. .)))
+ (TOP (S (ADVP (RB Otherwise)) (, ,) (NP (JJ actual) (NN profit)) (VP (VBZ is) (VP (VBN compared) (PP (IN with) (NP (DT the) (JJ 300-day) (NN estimate))))) (. .)))
++(TOP (NP (NP (NN Source)) (: :) (NP (NNP Zacks) (NNP Investment) (NNP Research))))
+diff -ruN ./wsj_1970.cleangold ../ptb.new/wsj_1970.cleangold
+--- ./wsj_1970.cleangold	2017-10-04 00:37:14.408069377 -0400
++++ ../ptb.new/wsj_1970.cleangold	2017-10-03 22:10:49.047997000 -0400
+@@ -36,3 +36,4 @@
+ (TOP (S (NP (NNP Alan) (NNP Murray)) (VP (VBD contributed) (PP (TO to) (NP (DT this) (NN article)))) (. .)))
+ (TOP (PRN (-LRB- -LRB-) (FRAG (PP (IN In) (NP (NP (NNS billions)) (PP (IN of) (NP (NNP U.S.) (NNS dollars))))) (, ,) (ADJP (RB not) (RB seasonally) (VBN adjusted))) (-RRB- -RRB-)))
+ (TOP (X (X (SYM \*)) (NP (NP (ADJP (RB Newly) (VBN industrialized)) (NNS countries)) (: :) (NP (NP (NNP Singapore)) (, ,) (NP (NNP Hong) (NNP Kong)) (, ,) (NP (NNP Taiwan)) (, ,) (NP (NNP South) (NNP Korea))))))
++(TOP (NP (NP (NN Source)) (: :) (NP (NNP Commerce) (NNP Department))))
+diff -ruN ./wsj_2352.cleangold ../ptb.new/wsj_2352.cleangold
+--- ./wsj_2352.cleangold	2017-10-04 00:37:14.414736044 -0400
++++ ../ptb.new/wsj_2352.cleangold	2017-10-03 22:10:49.047997000 -0400
+@@ -6,3 +6,4 @@
+ (TOP (S (CC And) (NP (DT the) (NNS facts)) (, ,) (SBAR (IN as) (S (VP (VBN found) (PP (IN by) (NP (DT the) (JJ various) (NNS courts))) (PP (IN in) (NP (DT these) (CD two) (NNS lawsuits)))))) (, ,) (VP (VBD were) (ADJP (JJ different))) (. .)))
+ (TOP (S (SBAR (WHADVP (WRB When)) (S (NP (PRP you)) (VP (VBP suggest) (ADVP (RB otherwise))))) (, ,) (NP (PRP you)) (VP (VP (VBP leave) (NP (NP (DT the) (NN realm)) (PP (IN of) (NP (NN reporting))))) (CC and) (VP (VB enter) (NP (NP (DT the) (NN orbit)) (PP (IN of) (NP (NN speculation)))))) (. .)))
+ (TOP (NP (NNP Charles) (NNP F.) (NNP Vihon)))
++(TOP (NP (NNP Boston)))

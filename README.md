@@ -6,7 +6,7 @@ This repository contains the implementation of the joint syntaco-discourse parse
 
 ### Syntaco-Discourse Treebank
 
-Due to copyright limit, we can not provide the joint treebank in the form that can be directly used to train a parser. Instead, we provide a patch tool kit to generate the Syntaco-Discourse Treebank giving the [RST Discourse Treebank](https://catalog.ldc.upenn.edu/ldc2002t07) and the [Penn Treebank](https://catalog.ldc.upenn.edu/ldc99t42).
+Due to copyright restriction, we can not provide the joint treebank in the form that can be directly used to train a parser. Instead, we provide a patch tool kit to generate the Syntaco-Discourse Treebank giving the [RST Discourse Treebank](https://catalog.ldc.upenn.edu/ldc2002t07) and the [Penn Treebank](https://catalog.ldc.upenn.edu/ldc99t42).
 
 Please follow the steps below to generate the treebank:
 
@@ -14,11 +14,29 @@ Please follow the steps below to generate the treebank:
 
 2. Place the Penn Treebank trees in folder ```dataset/ptb```. These constituency trees are in parentheses format. They are grouped as one treebank file (with name ```wsj_xxxx.cleangold```) for a WSJ article.
 
+3. Apply patches to the RST Discourse Treebank file and Penn Treebank file.
+	```bash
+	cd dataset/rst/train
+	patch -p0 ../../../patches/rst-ptb.train.patch
+	cd ../test
+	patch -p0 ../../../patches/rst-ptb.test.patch
+	cd ../../ptb
+	patch -p0 ../../patches/ptb-rst.patch
+	cd ...
+	```
+
+4. Run tokenization.
+	```bash
+	python src/tokenize_rst.py --rst_path dataset/rst/train
+	python src/tokenize_rst.py --rst_path dataset/rst/test
+	```
+
 3. Generate the training set and testing set for the joint treebank separately:
 
    ```bash
-   josydipa/src/aligner.py --rst_path dataset/rst/train --const_path dataset/ptb > train.txt
-   josydipa/src/aligner.py --rst_path dataset/rst/dev --const_path dataset/ptb > dev.txt
+   mkdir dataset/joint
+   python josydipa/src/aligner.py --rst_path dataset/rst/train --const_path dataset/ptb > dataset/joint/train.txt
+   python josydipa/src/aligner.py --rst_path dataset/rst/dev --const_path dataset/ptb > dataset/joint/dev.txt
    ```
 
 
