@@ -18,7 +18,7 @@ logs = sys.stderr
 FLAGS = flags.FLAGS
 
 flags.DEFINE_string("rst_path", "data/rst/train", "RST tree path")
-flags.DEFINE_string("const_path", "data/wsj", "Constituency tree path")
+flags.DEFINE_string("const_path", "data/ptb", "Constituency tree path")
 
 
 def undo_parentheses(text):
