@@ -90,10 +90,6 @@ def align_tokens(rstt, tokens, start=0):
                 print >> logs, educhars
                 print >> logs, tokens[start:start+10]
                 assert False
-        if len(educhars) > 0:
-            print >> logs, rstt.text
-            print >> logs, educhars
-            print >> logs, tokens[-10:]
         rstt.rightidx = start
         rstt.text = " ".join(tokens[rstt.leftidx:rstt.rightidx])
         return start
@@ -139,7 +135,6 @@ def prune_tree(root, left, right):
     """remove all nodes that are (totally) out of the span (left, right)"""
     newchildren = []
     for c in root.children:
-        #print c.leftidx, c.rightidx, left, right
         if c.leftidx < left and c.rightidx > right:  # this children fully convers the span
             newchildren.append(prune_tree(c, left, right))
         elif c.leftidx < left and c.rightidx <= right and c.rightidx > left:
@@ -148,7 +143,6 @@ def prune_tree(root, left, right):
             newchildren.append(c)
         elif c.leftidx >= left and c.leftidx < right and c.rightidx > right:
             newchildren.append(prune_tree(c, left, right))
-    #print len(newchildren)
     # aggregate all children, remove all consecutive unary rules
     if len(newchildren) == 1 and len(newchildren[0].children) == 1:
         newchildren[0].val = root.val
@@ -200,10 +194,8 @@ def build_newtree(rstt, span2const):
                 subtrees.append(tree)
             assert len(subtrees) > 1
 
-            #print >> logs, "for span", rstt.leftidx, rstt.rightidx
             root = find_smallest_common_subtree(span2const, rstt.leftidx, rstt.rightidx)
             if root is not None:
-                #print >> logs, "root span", root.leftidx, root.rightidx
                 newtree = prune_tree(root, rstt.leftidx, rstt.rightidx)
             else:
                 # fallback

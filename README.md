@@ -27,11 +27,11 @@ Please follow the steps below to generate the treebank:
 3. Apply patches to the RST Discourse Treebank file and Penn Treebank file. This step is necessary because there are some small mismatches between the RST Discourse tree texts and the Penn tree texts.
 	```bash
 	cd dataset/rst/train
-	patch -p0 ../../../patches/rst-ptb.train.patch
+	patch -p0 < ../../../patches/rst-ptb.train.patch
 	cd ../test
-	patch -p0 ../../../patches/rst-ptb.test.patch
+	patch -p0 < ../../../patches/rst-ptb.test.patch
 	cd ../../ptb
-	patch -p0 ../../patches/ptb-rst.patch
+	patch -p0 < ../../patches/ptb-rst.patch
 	cd ...
 	```
 
@@ -45,8 +45,8 @@ Please follow the steps below to generate the treebank:
 
    ```bash
    mkdir dataset/joint
-   python josydipa/src/aligner.py --rst_path dataset/rst/train --const_path dataset/ptb > dataset/joint/train.txt
-   python josydipa/src/aligner.py --rst_path dataset/rst/dev --const_path dataset/ptb > dataset/joint/dev.txt
+   python src/aligner.py --rst_path dataset/rst/train --const_path dataset/ptb > dataset/joint/train.txt
+   python src/aligner.py --rst_path dataset/rst/test --const_path dataset/ptb > dataset/joint/test.txt
    ```
 
 
