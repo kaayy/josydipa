@@ -1,4 +1,4 @@
-# Joint Syntactic and Discourse Parsing
+# Joint Syntaco-Discourse Parsing and Treebank
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
