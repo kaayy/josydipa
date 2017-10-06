@@ -10,6 +10,14 @@ This repository contains the implementation of the joint syntaco-discourse parse
 
 Due to copyright restriction, we can not provide the joint treebank in the form that can be directly used to train a parser. Instead, we provide a patch tool kit to generate the Syntaco-Discourse Treebank giving the [RST Discourse Treebank](https://catalog.ldc.upenn.edu/ldc2002t07) and the [Penn Treebank](https://catalog.ldc.upenn.edu/ldc99t42).
 
+#### Required Python Dependencies
+
+1. ```python-gflags``` for parsing script arguments.
+
+2. ```nltk``` for tokenization.
+
+#### Procedure to generate Treebank
+
 Please follow the steps below to generate the treebank:
 
 1. Place the RST Discourse Treebank in folder ```dataset/rst```. Put the discourse trees (```wsj_xxxx.out.dis``` files) in the RST Discourse Treebank to ```dataset/rst/train``` and ```dataset/rst/test``` respectively. Here each ```wsj_xxxx.out.dis``` file corresponds to one WSJ article, where ```xxxx``` is the article number.
