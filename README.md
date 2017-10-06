@@ -51,6 +51,7 @@ Please follow the steps below to generate the treebank:
 
 
 To test the scripts above, you can play with the sample data:
+
 	```bash
 	python src/tokenize_rst.py --rst_path sampledata/rst
 	python src/aligner.py --rst_path sampledata/rst --const_path sampledata/ptb > sampledata/joint.txt
