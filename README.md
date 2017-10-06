@@ -16,7 +16,7 @@ Due to copyright restriction, we can not provide the joint treebank in the form 
 
 2. ```nltk``` for tokenization.
 
-#### Procedure to generate Treebank
+#### Procedures to Generate Treebank
 
 Please follow the steps below to generate the treebank:
 
