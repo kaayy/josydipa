@@ -24,7 +24,7 @@ Please follow the steps below to generate the treebank:
 
 2. Place the Penn Treebank trees in folder ```dataset/ptb```. These constituency trees are in parentheses format. They are grouped as one treebank file (with name ```wsj_xxxx.cleangold```) for a WSJ article.
 
-3. Apply patches to the RST Discourse Treebank file and Penn Treebank file. This step is necessary because there are some small mismatches between the RST Discourse tree texts and the Penn tree texts.
+3. Apply patches to the RST Discourse Treebank files and Penn Treebank files. This step is necessary because there are some small mismatches between the RST Discourse tree texts and the Penn tree texts.
 	```bash
 	cd dataset/rst/train
 	patch -p0 < ../../../patches/rst-ptb.train.patch
@@ -52,10 +52,10 @@ Please follow the steps below to generate the treebank:
 
 To test the scripts above, you can play with the sample data:
 
-	```bash
-	python src/tokenize_rst.py --rst_path sampledata/rst
-	python src/aligner.py --rst_path sampledata/rst --const_path sampledata/ptb > sampledata/joint.txt
-	```
+   ```bash
+   python src/tokenize_rst.py --rst_path sampledata/rst
+   python src/aligner.py --rst_path sampledata/rst --const_path sampledata/ptb > sampledata/joint.txt
+   ```
 
 ### Syntaco-Dsicourse Parser
 
