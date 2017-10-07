@@ -59,4 +59,29 @@ To test the scripts above, you can play with the sample data:
 
 ### Syntaco-Dsicourse Parser
 
-To be finished.
+#### Required Python Dependencies
+
+Since the joint parser is based on the [Span-based Constituency Parser](https://github.com/jhcross/span-parser), please have the following required dependencies installed:
+
+1. [```DyNet```](http://dynet.readthedocs.io/en/latest/python.html) for neural model.
+
+2. ```numpy``` for interacting with DyNet.
+
+#### Training
+
+To train on the provided sample data, you can simply run:
+
+```bash
+mkdir exps
+python src/trainer.py --train sampledata/joint.txt --dev sampledata/joint.txt --epoch 200 --save exps/sampledata.model
+```
+
+You can find the training parameters and their descriptions in ```src/trainer.py```.
+
+#### Evaluating
+
+To evaluate the trained model on the sample data, you can run:
+
+```bash
+python src/parser.py --train sampledata/joint.txt --test sampledata/joint.txt --model exps/sampledata.model --verbose
+```
