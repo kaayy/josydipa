@@ -63,7 +63,7 @@ To test the scripts above, you can play with the sample data:
 
 Since the joint parser is based on the [Span-based Constituency Parser](https://github.com/jhcross/span-parser), please have the following required dependencies installed:
 
-1. [```DyNet```](http://dynet.readthedocs.io/en/latest/python.html) for neural model.
+1. [```DyNet```](http://dynet.readthedocs.io/en/latest/python.html) for the underlying neural model.
 
 2. ```numpy``` for interacting with DyNet.
 
